@@ -138,7 +138,7 @@ Wait until it ends the installation. The page you'll see is the following.
 
 If you want to have automatic updates of your Nextcloud instance when there's a new version, you can add the repository. There are packages available for openSUSE Leap 42.1, 42.2 and Tumbleweed (we recommend openSUSE Leap 42.1). You should be an administrator, so you can install Nextloud on your server.
 
-1. Add the Nextcloud repository.
+* Add the Nextcloud repository.
 
 **openSUSE_Leap_42.2**
 ```
@@ -155,19 +155,19 @@ zypper ar http://download.opensuse.org/repositories/server:/php:/applications/op
 zypper ar http://download.opensuse.org/repositories/server:/php:/applications/openSUSE_Tumbleweed/ Nextcloud
 ```
 
-2. Refresh your repositories
+* Refresh your repositories
 ```
 zypper refresh
 ```
 
-3. Install Nextcloud (be careful you have to install LAMP first and change permissions of the files).
+* Install Nextcloud (be careful you have to install LAMP first and change permissions of the files).
 ```
 zypper install nextcloud
 ```
 
-4. Open http://serverIP/nextcloud to install your instance (admin user account). Be careful to create another folder with the proper permissions for your data (as described).
+* Open http://serverIP/nextcloud to install your instance (admin user account). Be careful to create another folder with the proper permissions for your data (as described).
 
-5. Login and use Nextloud.
+* Login and use Nextloud.
 
 For more information about Nextcloud on openSUSE, check [openSUSE wiki](https://en.opensuse.org/SDB:Nextcloud).
 

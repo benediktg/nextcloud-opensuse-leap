@@ -124,9 +124,9 @@ Now open your browser to the server IP/nextcloud
 Set your administrator username and password.
 Your data directory is: /mnt/nextcloud_data
 Regarding database, use the following.
-Database user: ncuser
-Database name: nextcloudb
-Database user password: dbpass
+Database user: **ncuser**
+Database name: **nextcloudb**
+Database user password: **dbpass**
 ```
 
 Wait until it ends the installation. The page you'll see is the following.
@@ -134,7 +134,7 @@ Wait until it ends the installation. The page you'll see is the following.
 ![Nextcloud-install](/pictures/nextcloud_first_login.png)
 
 
-# Install Nextcloud using the respositories (option 2)
+# Install Nextcloud using the respository (option 2)
 
 If you want to have automatic updates of your Nextcloud instance when there's a new version, you can add the repository. There are packages available for openSUSE Leap 42.1, 42.2 and Tumbleweed (we recommend openSUSE Leap 42.1). You should be an administrator, so you can install Nextloud on your server.
 
